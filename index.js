@@ -42,6 +42,7 @@ module.exports.node_managment_service  = require("lib/services/node_management_s
 module.exports.EndpointDescription =  module.exports.get_endpoints_service.EndpointDescription;
 
 module.exports.utils              = require("lib/misc/utils");
+module.exports.crypto_utils       = require("lib/misc/crypto_utils");
 
 module.exports.AttributeIds       = module.exports.read_service.AttributeIds;
 module.exports.AttributeNameById  = module.exports.read_service.AttributeNameById;
